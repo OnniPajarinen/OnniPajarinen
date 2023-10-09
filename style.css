@@ -1,0 +1,14 @@
+h1{
+    color:blue
+}
+div{ 
+    background-color: rgb(97, 183, 191); 
+}
+.fancy-teksti {background-color: lightcoral;}
+#kiva-laatikko {font-family: 'Times New Roman', Times, serif; font-size: 25px;}
+.tyo {background-color: aliceblue; color: coral;font-family: 'Times New Roman', Times, serif;}
+.yrjo {text-align: center;}
+.oomi {font-size: xx-large;}
+.oomi {float: left;}
+.oik {float: right;}
+.oomi {border: 1px blue;border-style: dotted;}
