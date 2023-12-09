@@ -12,9 +12,9 @@
     h1{font-family: monospace; padding: 10px; background-color: rgb(0, 76, 10); max-width: min-content; color: white;}
     h3{margin-left: 25%; margin-right: 25%; padding: 5%; background-color: rgb(62, 94, 66)}
     div.loko{background-color: rgba(225, 244, 222, 0.593); color: white;} 
-    .card{border-color: black; text-align: center; background-color: rgb(62, 94, 66); color: white;}
+    .card{border-color: black; text-align: center; background-color: rgb(62, 94, 66); color: white; margin-bottom: 100px; margin-top: 20px;}
     img{border-color: black; max-width: min-content;}
-    footer{color: black;}
+    footer{color: black; background-color: rgb(179, 230, 171);}
     img{max-width: 100%; max-height: fit-content;}
     .row{margin-top: 20px;}
     div.motiivi{background-color: rgba(0, 0, 0, 0.5);}
@@ -25,6 +25,9 @@
     .dropdown-menu{background-color: rgb(28, 42, 30);color: white;}
     div.outo{margin-bottom: 35px; display: flex; flex-wrap: wrap; justify-content: center;
     }
+    aside{text-align: center; background-color: rgb(179, 230, 171); border-color: black; align-items: center;}
+    h2.olio{background-color: rgb(62, 94, 66); text-align: center;padding: 5px;}
+    div.joo{display: flex; flex-wrap: wrap; justify-content: center;}
     </style>
     <div class="loko">
 
@@ -35,10 +38,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="https://onnipajarinen.github.io/OnniPajarinen/Uusi/Bootstrap/index.html">Etusivu</a>
+              <a class="nav-link" href="https://onnipajarinen.github.io/OnniPajarinen/">Etusivu</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Meistä</a>
+              <a class="nav-link" href="https://onnipajarinen.github.io/OnniPajarinen/Uusi/harjoitus.html">Meistä</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -198,6 +201,60 @@
         </div>
     </div>
 </div>
+<aside>
+  <div class="row">
+    <div class="col-mg-12 mb-3">
+  <h2 class="olio">Yhteydenottopyyntö-lomake</h2>
+</div></div>
+  <form>
+    <div class="row">
+      <div class="col-md-4 mb-3">
+        <label for="validationDefault01">Etunimi</label>
+        <input type="text" class="form-control" id="validationDefault01" placeholder="Etunimi" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationDefault02">Sukunimi</label>
+        <input type="text" class="form-control" id="validationDefault02" placeholder="Sukunimi" required>
+      </div>
+      <div class="col-md-4 mb-3">
+        <label for="validationDefaultUsername">Sähköposti</label>
+        <div class="input-group">
+          <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Sähköposti" aria-describedby="inputGroupPrepend2" required>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 mb-3">
+        <label for="validationDefault03">Osoite</label>
+        <input type="text" class="form-control" id="validationDefault03" placeholder="Osoite" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault04">Kaupunki</label>
+        <input type="text" class="form-control" id="validationDefault04" placeholder="Kaupunki" required>
+      </div>
+      <div class="col-md-3 mb-3">
+        <label for="validationDefault05">Postinumero</label>
+        <input type="text" class="form-control" id="validationDefault05" placeholder="Postinumero" required>
+      </div>
+    </div>
+    <div class="form-group">
+      <div class="form-check">
+        <div class="joo">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        <label class="form-check-label" for="invalidCheck2">
+        Agree to terms and conditions
+        </label>
+      </div>
+      </div>
+    </div>
+    <button class="btn btn-primary" type="submit">Submit form</button>
+  </form>
+  <div class="row">
+    <div class="col-md-12">
+      <h2 class="olio">Kiitoksia</h2>
+    </div>
+  </div>
+</aside>
 </body>
 <footer>@Onnin Asunnot LKV 2023</footer>
 
