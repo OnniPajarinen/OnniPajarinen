@@ -1,0 +1,20 @@
+h1{
+    color:lightblue
+}
+.fancy-teksti {background-color: lightcoral;}
+#kiva-laatikko {font-family: 'Times New Roman', Times, serif; font-size: 25px; background-color: rgb(97, 183, 191);}
+.tyo {background-color: aliceblue; color: coral;font-family: 'Times New Roman', Times, serif;}
+.yrjo {text-align: center;}
+.oomi {font-size: xx-large;}
+.oomi {float: left;}
+.oik {float: right; border: 2px  rgb(97, 183, 191);; border-style: double;}
+.oomi {border: 1px blue;border-style: dotted;}
+main {background-color: beige;}
+header{font-family: Verdana, Geneva, Tahoma, sans-serif;background-color: cadetblue;}
+nav{background-color: black;font-size: xx-large;}
+aside{font-weight: 10;font-size: smaller;}
+article{ background-color: rgb(97, 183, 191);}
+figure{background-color: rgb(97, 183, 191);}
+footer{background-color: rgb(97, 183, 191);}
+section{font-family: monospace;}
+ol{flex: auto;flex-wrap: wrap;}
