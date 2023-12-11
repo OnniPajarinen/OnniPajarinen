@@ -1,0 +1,120 @@
+h1{text-align: center; font-family: monospace; padding: 50px; background-color: rgb(62, 70, 94);}
+div.ok{padding: 10px; background-color: rgb(62, 94, 66); margin-top: 70px; margin-bottom: 20px; margin-left: 25%; margin-right: 25%; display: flex; align-items: center; justify-content: center; margin}
+h2{text-align: center;}
+img.eka{max-width: 170px; padding: 10px; background-color: rgb(62, 94, 66);margin-top: 45px;}
+.flex{align-items: center; justify-content: center; margin: 50px; background-color: rgb(62, 94, 66);}
+html{color: white; background-color: rgb(195, 210, 230);}
+.yes{padding: 20px;background-color: rgb(61, 78, 87);}
+.no{background-color: rgb(69, 82, 122); padding: 20px;}
+div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
+.yo{max-height: 90px;}
+@media screen and (max-width: 2000px){div.cover1 {max-height: 265px;}   
+}
+@media screen and (max-width: 1239px){div.cover1 {max-height: 298px;}   
+}
+@media screen and (max-width: 684px){div.cover1 {max-height: 331px;}   
+}
+@media screen and (max-width: 667px){div.cover1 {max-height: 372px;}   
+}
+body {margin:0;}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
+
+div.intro {
+    width: 100px;
+    height: 100px;
+    background: rgb(62, 94, 66);
+    transition: width 2s, height 2s, transform 2s;
+  }
+  
+  div.intro:hover {
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+  }
+body, html {
+    height: 100%;
+  }
+  
+
+  .parallax1 {
+    background-image: url('SATO-Lincolninaukio.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax2 {
+    background-image: url('SATO-Raudikkokuja.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .parallax3 {
+    background-image: url('SATO-Talvikkitie.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 {
+    background-image: url('SATO-Raiviosuonmaki.png');
+    height: 100%; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+  div.cover1{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;}
+div.cover2{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+div.cover3{
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+footer{color: black;}
