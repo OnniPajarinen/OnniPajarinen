@@ -210,3 +210,6 @@ li{list-style: none;}
   
   .button1 {background-color: #04AA6D;}
   ul.listaus{background-color: #333; padding-bottom: 40px; text-align: center;}
+  @media screen and (max-width: 10000px) {ul.listaus {max-height: fit-content;}
+    
+  }
