@@ -152,7 +152,7 @@ footer{color: black; margin-top: 5em; background-color: rgb(215, 250, 221);}
 
 ul.tiedot{list-style-type: none;  padding: 20px; font-size: xx-large;}
 li{list-style: none;}
-.loki{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(18, 32, 28); padding: 20px; font-size: xx-large;}
+.loki{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(18, 32, 28); padding: 20px; font-size: xx-large; margin-top: 3em;}
 .oki{background-color: rgb(18, 32, 28); padding: 20px;}
 .taka{background-color: #4aa684; padding: 20px; font-size: xx-large; text-align: center;}
 .taak{margin-bottom: 40px;}
