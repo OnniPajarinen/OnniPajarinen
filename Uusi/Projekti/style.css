@@ -1,5 +1,5 @@
 h1.lo{text-align: center; font-family: monospace; padding: 50px; background-color: rgb(62, 70, 94);}
-div.ok{padding: 10px; background-color: rgb(62, 94, 66); margin-top: 70px; margin-bottom: 20px; margin-left: 25%; margin-right: 25%; display: flex; align-items: center; justify-content: center; margin}
+div.ok{padding: 10px; background-color: rgb(62, 94, 66); margin-top: 70px; margin-bottom: 20px; margin-left: 25%; margin-right: 25%; display: flex; align-items: center; justify-content: center;}
 h2{text-align: center;}
 img.eka{max-width: 170px; padding: 10px; background-color: rgb(62, 94, 66);margin-top: 45px;}
 .flex{align-items: center; justify-content: center; margin: 50px; background-color: rgb(62, 94, 66);}
@@ -8,20 +8,17 @@ html{color: white; background-color: rgb(195, 210, 230); width: 100%;}
 .no{background-color: rgb(69, 82, 122); padding: 20px;}
 div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 .yo{max-height: 90px;}
-@media screen and (max-width: 2000px){div.cover1 {max-height: 265px;}   
+
+
+
+@media screen and (max-width: 100000px){div.cover2 {max-height: fit-content;}   
 }
-@media screen and (max-width: 1239px){div.cover1 {max-height: 298px;}   
-}
-@media screen and (max-width: 668px){div.cover1 {max-height: 331px;}   
-}
-@media screen and (max-width: 651px){div.cover1 {max-height: 372px;}
+@media screen and (max-width: 100000px) {div.cover1 {max-height: fit-content;}
     
 }
 
-
-@media screen and (max-width: 2000px){div.cover2 {max-height: 500px;}   
-}
-@media screen and (max-width: 985px){div.cover2 {max-height: 800px;}   
+@media screen and (max-width:100000px){div.cover3 {max-height: fit-content;}
+    
 }
 
 @media only screen and (max-width: 800px) {
@@ -154,9 +151,8 @@ footer{color: black; margin-top: 5em; background-color: rgb(215, 250, 221);}
 
 ul.tiedot{list-style-type: none;  padding: 20px; font-size: xx-large;}
 li{list-style: none;}
-.loki{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(61, 78, 87); padding: 20px; font-size: xx-large;}
-.liko{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(61, 78, 87); padding: 20px;}
-.oki{background-color: rgb(61, 78, 87); padding: 20px;}
+.loki{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(18, 32, 28); padding: 20px; font-size: xx-large;}
+.oki{background-color: rgb(18, 32, 28); padding: 20px;}
 .taka{background-color: #4aa684; padding: 20px; font-size: xx-large; text-align: center;}
 .taak{margin-bottom: 40px;}
 
