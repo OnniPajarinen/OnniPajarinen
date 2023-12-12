@@ -38,6 +38,10 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
     
 }
 
+@media screen and (max-width: 800px) {img.eka {margin-top: 6em;}
+    
+}
+
 p{font-family: 'Kalnia', serif;}
 h3.okei{font-family: 'Afacad', sans-serif; text-align: center; background-color: dimgray; }
 body {margin:0;}
