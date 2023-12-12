@@ -35,6 +35,9 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 @media screen and (max-width: 655px){div.cover3 {max-height: 4180px;}   
 }
 
+@media screen and (max-width: 655px){.parallax1 {max-width: 655px;}   
+}
+
 p{font-family: 'Kalnia', serif;}
 h3.okei{font-family: 'Afacad', sans-serif;}
 body {margin:0;}
