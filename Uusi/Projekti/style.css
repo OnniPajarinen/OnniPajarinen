@@ -18,7 +18,7 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
     
 }
 
-@media screen and (max-width:100000px){div.cover3 {max-height: fit-content;}
+@media screen and (max-width:7000px){div.cover3 {max-height: fit-content;}
     
 }
 
