@@ -14,14 +14,11 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 }
 @media screen and (max-width: 684px){div.cover1 {max-height: 331px;}   
 }
-@media screen and (max-width: 667px){div.cover1 {max-height: 372px;}   
-}
+
 
 @media screen and (max-width: 2000px){div.cover2 {max-height: 500px;}   
 }
 @media screen and (max-width: 985px){div.cover2 {max-height: 680px;}   
-}
-@media screen and (max-width: 662px){div.cover2 {max-height: 820px;}   
 }
 
 @media screen and (max-width: 2000px){div.cover3 {max-height: 1980px;}   
@@ -32,11 +29,15 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 }
 @media screen and (max-width: 834px){div.cover3 {max-height: 3700px;}   
 }
-@media screen and (max-width: 655px){div.cover3 {max-height: 4180px;}   
-}
-
-@media screen and (max-width: 655px){.parallax1 {max-width: 655px;}   
-}
+@media only screen and (mobile:disabled) {
+    div.parallax1 {
+        height: 100%; 
+        background-attachment: scroll;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+  }
 
 p{font-family: 'Kalnia', serif;}
 h3.okei{font-family: 'Afacad', sans-serif;}
