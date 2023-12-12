@@ -12,7 +12,7 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 }
 @media screen and (max-width: 1239px){div.cover1 {max-height: 298px;}   
 }
-@media screen and (max-width: 684px){div.cover1 {max-height: 331px;}   
+@media screen and (max-width: 690px){div.cover1 {max-height: 331px;}   
 }
 
 
@@ -29,9 +29,9 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 }
 @media screen and (max-width: 834px){div.cover3 {max-height: 3700px;}   
 }
-@media only screen and (mobile:disabled) {
-    div.parallax1 {
-        height: 100%; 
+@media only screen and (max-width: 800px) {
+    div.parallax1, div.parallax2, div.parallax3, div.parallax4 {
+        height: 100%;
         background-attachment: scroll;
         background-position: center;
         background-repeat: no-repeat;
