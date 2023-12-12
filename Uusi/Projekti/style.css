@@ -16,6 +16,27 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 }
 @media screen and (max-width: 667px){div.cover1 {max-height: 372px;}   
 }
+
+@media screen and (max-width: 2000px){div.cover2 {max-height: 500px;}   
+}
+@media screen and (max-width: 985px){div.cover2 {max-height: 680px;}   
+}
+@media screen and (max-width: 662px){div.cover2 {max-height: 820px;}   
+}
+
+@media screen and (max-width: 2000px){div.cover3 {max-height: 1980px;}   
+}
+@media screen and (max-width: 1316px){div.cover3 {max-height: 2500px;}   
+}
+@media screen and (max-width: 1037px){div.cover3 {max-height: 3040px;}   
+}
+@media screen and (max-width: 834px){div.cover3 {max-height: 3700px;}   
+}
+@media screen and (max-width: 655px){div.cover3 {max-height: 4180px;}   
+}
+
+p{font-family: 'Kalnia', serif;}
+h3.okei{font-family: 'Afacad', sans-serif;}
 body {margin:0;}
 ul {
     list-style-type: none;
