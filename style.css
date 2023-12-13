@@ -1,3 +1,7 @@
 h1{
-    color:lightblue
+    color:rgb(201, 204, 255)
 }
+li{font-family: 'Courier New', Courier, monospace;}
+html{background-color: rgb(62, 94, 66); color: white;}
+div.eka{background-color: rgb(166, 191, 169); width: 25%;}
+ul{list-style-type: none;}
