@@ -4,7 +4,7 @@ h2{text-align: center;}
 img.eka{max-width: 180px; padding: 10px; background-color: rgb(62, 94, 66);}
 .flex{align-items: center; justify-content: center; margin: 50px; background-color: rgb(62, 94, 66);}
 html{color: white; background-color: rgb(195, 210, 230);}
-body{width: 100%;}
+body{width: fit-content;}
 .yes{padding: 20px;background-color: rgb(61, 78, 87);}
 .no{background-color: rgb(69, 82, 122); padding: 20px;}
 div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
