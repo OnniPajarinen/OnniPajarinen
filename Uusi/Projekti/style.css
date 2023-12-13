@@ -1,7 +1,7 @@
 h1.lo{text-align: center; font-family: monospace; padding: 50px; background-color: rgb(62, 70, 94);}
 div.ok{padding: 10px; background-color: rgb(62, 94, 66); margin-top: 70px; margin-bottom: 20px; margin-left: 25%; margin-right: 25%; display: flex; align-items: center; justify-content: center;}
 h2{text-align: center;}
-img.eka{max-width: 170px; padding: 10px; background-color: rgb(62, 94, 66);margin-top: 45px;}
+img.eka{max-width: 180px; padding: 10px; background-color: rgb(62, 94, 66);margin-top: ;}
 .flex{align-items: center; justify-content: center; margin: 50px; background-color: rgb(62, 94, 66);}
 html{color: white; background-color: rgb(195, 210, 230);}
 body{width: 100%;}
@@ -9,6 +9,7 @@ body{width: 100%;}
 .no{background-color: rgb(69, 82, 122); padding: 20px;}
 div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
 .yo{max-height: 90px;}
+div.intro{margin-top: 45px;}
 
 
 
@@ -36,7 +37,7 @@ div.tru{font-size: 25px; background-color: rgb(62, 94, 66); padding: 20px ;}
     
 }
 
-@media screen and (max-width: 800px) {img.eka {margin-top: 6em;}
+@media screen and (max-width: 800px) {div.intro {margin-top: 6em;}
     
 }
 
@@ -75,15 +76,15 @@ ul.nav {
   }
 
 div.intro {
-    width: 100px;
-    height: 100px;
+    width: 200px;
+    height: 180px;
     background: rgb(62, 94, 66);
     transition: width 2s, height 2s, transform 2s;
   }
   
   div.intro:hover {
     width: 200px;
-    height: 200px;
+    height: 180px;
     transform: rotate(180deg);
   }
 body, html {
@@ -154,7 +155,7 @@ ul.tiedot{list-style-type: none;  padding: 20px; font-size: xx-large;}
 li{list-style: none;}
 .loki{font-family: 'Afacad', sans-serif; text-align: center; background-color: rgb(18, 32, 28); padding: 20px; font-size: xx-large; margin-top: 3em;}
 .oki{background-color: rgb(18, 32, 28); padding: 20px;}
-.taka{background-color: #4aa684; padding: 20px; font-size: xx-large; text-align: center;}
+.taka{background-color: #2C604D; padding: 20px; font-size: xx-large; text-align: center;}
 .taak{margin-bottom: 40px;}
 
 .flip-card {
