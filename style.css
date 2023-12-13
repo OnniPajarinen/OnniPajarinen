@@ -3,5 +3,5 @@ h1{
 }
 li{font-family: 'Courier New', Courier, monospace;}
 html{background-color: rgb(62, 94, 66); color: white;}
-div.eka{background-color: rgb(166, 191, 169); width: 25%;}
+div.eka{background-color: rgb(166, 191, 169); width: 15em;}
 ul{list-style-type: none;}
